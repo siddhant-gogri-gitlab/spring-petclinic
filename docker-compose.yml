@@ -8,5 +8,7 @@ mysql:
     - MYSQL_USER=petclinic
     - MYSQL_PASSWORD=petclinic
     - MYSQL_DATABASE=petclinic
+    - JIRA_PROJECT=GH
+    - FISHEYE=DEMO
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
